@@ -1,0 +1,694 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body {background-color: #effff9;}
+
+header {margin-bottom: 30px;}
+
+h1 {color: rgb(240, 17, 136);
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+h1:hover {
+    color: #b3ff00d8;
+}
+
+.cabecera {
+    background-image: url(https://www.filo.news/__export/1495528635055/sites/claro/img/2017/05/23/obelisco_portexo.jpg_554688468.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h2 {text-align: center; color: rgb(100, 100, 100); padding: 10px; text-decoration: underline; font-family: 'Grandstander', cursive;}
+h3 {color: deeppink; text-decoration: underline;}
+h4 { color: #152cf7; font-size: 19px;}
+h5 {text-align: center; color: gray;}
+h5:hover {text-align: center; color: rgb(48, 247, 9);}
+a {text-decoration: none; color: black;}
+
+#subtitulo {color:  rgb(235, 28, 124);
+margin-bottom: 0px;
+margin-top: 40px;
+font-family: 'Anton', sans-serif;
+letter-spacing: 2px;
+font-size: x-large;
+text-align: center;
+}
+
+#subtitulo1 {color:  rgb(235, 28, 124);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: x-large;
+    text-align: center;
+}
+
+#subtitulo2 {color:  rgb(10, 248, 10);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.places { 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.xxxx {margin: 30px;}
+
+.Medios { color: teal;}
+
+.cj1 {
+    background-color: rgba(118, 216, 208, 0.5);
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.li:hover {color: rgb(73, 76, 255);}
+.lu:hover {color: rgb(7, 252, 7);}
+.lo:hover { color: yellow;}
+.suli {color: rgb(3, 218, 207);}
+.suli:hover {color: rgb(255, 38, 0);}
+.pagoficial:hover {color: tomato;}
+.lugares:hover {color: tomato;}
+.alojamiento:hover {color: tomato;}
+.alojamientos:hover {color: rgb(255, 71, 215);}
+.otros:hover {color: rgb(9, 255, 0);}
+
+img {display:block;
+    margin:auto;
+}
+
+.plaza { background-color: rgb(118, 216, 208);
+    border: 5px solid indigo;
+    border-radius: 15px;
+    padding: 30px;
+    width: 15%;
+    height: 10%;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+} 
+
+.plaza:hover {
+    box-shadow: rgb(146, 144, 144) 2px 2px 2px;
+    background-color: rgb(27, 158, 147);
+    color: #e1e4ff;
+    transform: scale(1.05, 1.05);
+}
+
+#Paramasinfo {color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 4px gray;
+    text-decoration: none;
+    padding: 3px; 
+    background-color: #ff3232; 
+    border-color: #7c0b80;  
+    border-radius: 6px;
+}
+
+#Paramasinfo:hover { background-color: #ff5e5e;
+    box-shadow: blue 2px 2px 4px;
+    text-decoration: underline;
+    transition: .5s ease;
+}
+
+.menu {
+    margin:auto;
+    padding-bottom: 70px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#000000;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.epigrafe {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titu {text-align: center; font-family: cursive; color: green;font-weight: 900;}
+.titu1 {text-align: center; font-family: cursive; color: rgb(209, 209, 0); font-weight: 900;}
+.titu2 {text-align: center; font-family: cursive; color: rgb(255, 123, 0);font-weight: 900;}
+.titu3 {text-align: center; font-family: cursive; color: rgb(17, 0, 255);font-weight: 900;}
+.texto {font-family: Cambria, sans-serif}
+
+.reto {border: rgb(8, 105, 21) 3px solid;
+    background-color: rgb(166, 241, 236);
+    width: 200px;     
+    height: 300px;
+    text-align: center; 
+    padding: 10px;
+    margin: 3px;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.reto:hover {
+    transform: scale(1.1,1.1);
+}
+
+.reto1 {border: rgb(224, 221, 0) 3px solid;
+    background-color: rgb(166, 241, 236);
+    width: 200px;      
+    height: 300px;  
+    text-align: center; 
+    padding: 10px;
+    margin: 3px;
+    overflow: hidden;
+}
+
+.reto1:hover {
+    transform: scale(1.1,1.1);
+}
+
+.reto2 {border: rgb(255, 145, 0) 3px solid;
+    background-color: rgb(166, 241, 236);
+    width: 200px;     
+    height: 300px;   
+    text-align: center; 
+    padding: 10px;
+    margin: 3px;
+    overflow: hidden;
+}
+
+.reto2:hover {
+    transform: scale(1.1,1.1);
+}
+
+.reto3 {border: rgb(17, 0, 255) 3px solid;
+    background-color: rgb(166, 241, 236);
+    width: 200px;     
+    height: 300px;   
+    text-align: center; 
+    padding: 10px;
+    margin: 3px;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.reto3:hover {
+    transform: scale(1.1,1.1);
+}
+
+.cajas {display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.medios {color: rgb(235, 28, 124);  
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.estadios {
+    color: #06f73a;
+    background-color: #686666;
+}
+
+.estadios:hover {
+    background-color: #9a9ae0;
+    color: #3916fd;
+}
+
+.encuesta {
+    border: rgb(0, 0, 0) 2px solid;
+    background-color: #e2e2e2;
+    max-width: fit-content;
+    margin: auto;
+    padding: 20px;
+}
+
+#ckeck {
+    margin-left: 10px;
+}
+
+.promohotelera {
+    border: rgb(160, 156, 154) solid 5px;
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 10px;
+    margin: 160px auto 20px auto;
+    max-width: fit-content;
+}
+
+.promohotelera:hover { box-shadow: rgb(154, 156, 158) 2px 2px 2px 2px;
+    border-color: rgb(121, 238, 121);
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+#insta {color: rgb(255, 0, 21); text-decoration: underline;}
+#tw {color: rgb(3, 218, 207); text-decoration: underline;}
+
+.nike {font-family: "nike.otf";}
+
+.envio {
+    border-top-color: deeppink;
+    border-bottom-color: deeppink;
+    border-right-color:lime ;
+    border-left-color:lime;
+    padding: 2px;
+    box-shadow: rgb(202, 202, 202) 4px 4px;
+    background-color: rgb(182, 223, 248);
+    border-radius: 5px;
+}
+
+.envio:hover {
+    background-color: rgb(243, 236, 230);
+    color: maroon;
+    text-decoration: underline;
+}
+
+.bloque1 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bloque3 {
+    display: flex;
+    justify-content: center;
+}
+
+.bloques {
+    display: block;
+}
+
+.tito {
+    color: rgb(252, 183, 183);
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.avisos {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.consejos1 {
+background-color: rgb(82, 82, 248);
+border: rgb(245, 141, 14) 2px solid;
+padding: 10px;
+color: white;
+font-family: 'Varela Round', sans-serif;
+text-align: center;
+max-width: fit-content;
+margin: 40px 20px;
+}
+
+.consejos1:hover {transform: scale(1.05,1.05);}
+
+.consejos2 {background-image: url(https://www.msdmanuals.com/-/media/manual/hero_images/istock-1205573573-coronavirus.jpg?h=203&w=360);
+border: rgb(245, 141, 14) 2px solid;
+padding: 10px;
+color: white;
+font-family: 'Varela Round', sans-serif;
+text-align: center;
+max-width: fit-content;
+margin: 60px 20px;
+}
+
+.consejos2:hover {transform: scale(1.1,1.1);
+    background-image: none;
+    background-color: honeydew;
+    color: red;
+}
+
+.button{
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgb(102, 174, 247);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.button:hover {
+    border-radius: 10px;
+    background-color: rgb(78, 166, 253) ;
+    box-shadow: #ffdbdb 2px 2px;
+    text-decoration: underline;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card{
+    width: 200px; 
+    height: auto;
+    background-color: white; 
+    border-radius: 20px ;
+    text-align: center;
+    margin: 10px;
+    box-shadow: rgba(146, 146, 146, 0.418) 2px 2px 2px 2px;
+}
+.card:hover { transform: scale(1.1, 1.1);background-color: #c4fdff;}
+
+.imag{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.provincia {   
+    background-color: rgba(211, 211, 211, 0.178);
+    border: rgb(168, 167, 167) 2px solid;
+    margin: 50px  auto 0px auto;
+    max-width: fit-content;
+}
+
+.iconos {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icono { width: 30px;}
+
+.a1 {padding: 5px; }
+.a1:hover { color: tomato; transform: scale(1.1, 1.1);}
+
+#contacto:hover {color: tomato;}
+
+.tarjeta {width: 100px; height: 50px;}
+.tarjeta:hover {transform: scale(1.1, 1.1);}
+
+.promos {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    max-width: fit-content;
+}
+
+.promo1 {
+    background-color: rgb(44, 151, 238);
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    color: white;
+    font-family:  Calibri, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.promo1:hover {
+    transform: scale(1.1, 1.1);
+    transition: background-color 5s;
+    background-color: #1021bb;
+}  
+
+.promo2 {
+    background-color: rgb(110, 186, 248);
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    color: rgb(9, 11, 116);
+    font-family:  Calibri, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.promo2:hover {
+    transform: scale(1.1, 1.1);
+    transition: background-color 5s;
+    background-color: #dafa22;
+} 
+
+.promo3 {
+    background-color: rgb(8, 107, 187);
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    color: white;
+    font-family:  Calibri, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+.promo3:hover {
+    transform: scale(1.2, 1.2);
+    transition: background-color 5s;
+    background-color: #91ff6fe5;
+} 
+
+.regalo {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+
+}
+
+.escudo { display: flex; justify-content: center}
+.escudito {margin:0px;}
+
+.resto{
+    width: 200px; 
+    height: auto;
+    background-color: rgb(189, 248, 250); 
+    border-radius: 5px ;
+    text-align: center;
+    margin: 10px;
+    border: #b8b8b8 1px solid;
+}
+
+.resto:hover {
+    transform: scale(1.2,1.2);
+}
+
+.restos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: fit-content;
+}
+
+.section2 { 
+    border-top: #1021bb 2px solid;
+    border-bottom: red 2px solid;
+    border-left: yellow 2px solid;
+    border-right: green 2px solid;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: fit-content;
+    background-color: #effff960;
+    overflow: hidden;
+}
+
+.section3 { 
+    margin: 20px auto;
+    max-width: fit-content;
+    background-image: url(https://i.pinimg.com/originals/6d/38/cb/6d38cbedf01f440d4340d96dab91eb98.jpg);
+    border: lime 2px solid;
+}
+
+.bar{
+    width: 150px; 
+    height: auto;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5px ;
+    text-align: center;
+    margin: 10px;
+    border: #00ff0d 1px solid;
+    overflow: hidden;
+}
+.bar:hover {background-color: #c1ffc6;}
+
+.bares {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.fotoo{
+    width: 150px;
+    height: 80px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.h4 { color: #b42f7d;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.foto{
+    width: 200px;
+    height: 100px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+footer {text-align: center; 
+    background-color: #f3e8e8bd;
+    margin-top: 30px;
+}
+
+#masinfo {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 2, 122);
+    margin: 30px
+}
+
+#masinfo:hover {
+    text-decoration: underline;
+    color: tomato;
+}  
+
+.links { 
+    display: flex;
+    justify-content: center;
+}
+
+.viajar {
+    background-color: #e7ee80;
+    opacity: 1;
+    position: absolute;
+    padding: 20px;
+    margin: 20px;
+    left: 43%;
+}
+
+.viajar:hover {
+    opacity: 0;
+    text-decoration: none;
+    transform: scale(1.05, 1.05);
+}
+
+.barato{
+    background-color: #ff7d7d;
+    opacity: 0;
+    position: absolute;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    left: 43%;
+}
+
+.barato:hover {
+    opacity: 1;
+    text-decoration: none;
+    transform: scale(1.05, 1.05);
+}
+
+#enlace {text-decoration: none; color: rgb(13, 5, 117);}
+#enlace:hover {text-decoration: none;}
+
+#vuelos {color: rgb(255, 217, 0);}
+#vuelos:hover {color: rgb(28, 187, 235);}
+
+.miniatura {padding: 50px;}
+
+.pie {margin-bottom: 30px}
+#encuesta {margin-bottom: 20px;}
+
+@media (max-width: 920px) {
+    .nav {display: flex; flex-direction: column;}
+    .cajas {display: flex; flex-direction: column;}
+    .plaza {overflow: hidden;}
+    .restos {display: flex; flex-direction: column; margin: 0 auto; }
+    .section2 {overflow: hidden;}
+    .promos {overflow: hidden;}
+    .provincia {overflow: hidden;}
+    .section3 {overflow: hidden;}
+    .bares {display: flex; flex-direction: column; justify-content: center;}
+    .cards {display: flex; flex-direction: column; justify-content: center;}
+    .promohotelera {overflow: hidden;}
+}
+
+@media (max-width: 768px) {
+    .nav {display: flex; flex-direction: column;}
+    .cajas {display: flex; flex-direction: column;}
+    .plaza {overflow: hidden;}
+    .restos {display: flex; flex-direction: column; margin: 0 auto; }
+    .section2 {overflow: hidden;}
+    .promos {overflow: hidden;}
+    .provincia {overflow: hidden;}
+    .section3 {overflow: hidden;}
+    .bares {display: flex; flex-direction: column; justify-content: center;}
+    .cards {display: flex; flex-direction: column; justify-content: center;}
+    .promohotelera {overflow: hidden;}
+}
+
+@media (max-width: 375px) {
+    .nav {display: flex; flex-direction: column;}
+    .cajas {display: flex; flex-direction: column;}
+    .plaza {overflow: hidden;}
+    .restos {display: flex; flex-direction: column; margin: 0 auto;}
+    .section2 {overflow: hidden;}
+    .promos {overflow: hidden;}
+    .provincia {overflow: hidden;}
+    .section3 {overflow: hidden;}
+    .bares {display: flex; flex-direction: column; justify-content: center;}
+    .cards {display: flex; flex-direction: column; justify-content: center;}
+    .promohotelera {overflow: hidden;}
+}
