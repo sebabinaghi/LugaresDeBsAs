@@ -352,7 +352,7 @@ margin: 40px 20px;
 
 .consejos1:hover {transform: scale(1.05,1.05);}
 
-.consejos2 {background-image: url(https://www.msdmanuals.com/-/media/manual/hero_images/istock-1205573573-coronavirus.jpg?h=203&w=360);
+.consejos2 {background-color: red;);
 border: rgb(245, 141, 14) 2px solid;
 padding: 10px;
 color: white;
