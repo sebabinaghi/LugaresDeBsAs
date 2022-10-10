@@ -352,7 +352,7 @@ margin: 40px 20px;
 
 .consejos1:hover {transform: scale(1.05,1.05);}
 
-.consejos2 {background-color: white;
+.consejos2 {background-image: url(https://www.paho.org/sites/default/files/styles/max_1500x1500/public/2021-01/covid-19-dna-1500x765.jpg?itok=w4RQ_gOr);
 border: rgb(245, 141, 14) 2px solid;
 padding: 10px;
 color: white;
